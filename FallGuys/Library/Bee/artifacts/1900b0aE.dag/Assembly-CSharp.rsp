@@ -385,6 +385,8 @@
 "Assets/Photon/PhotonChat/Demos/DemoChat/IgnoreUiRaycastWhenInactive.cs"
 "Assets/Photon/PhotonChat/Demos/DemoChat/NamePickGui.cs"
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
+"Assets/scripts/Character.cs"
+"Assets/scripts/Charcter Manager.cs"
 "Assets/scripts/information.cs"
 "Assets/scripts/Lobby Manager.cs"
 "Assets/scripts/Parallax.cs"
