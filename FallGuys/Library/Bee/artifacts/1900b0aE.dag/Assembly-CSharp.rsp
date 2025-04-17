@@ -391,6 +391,7 @@
 "Assets/scripts/Lobby Manager.cs"
 "Assets/scripts/Parallax.cs"
 "Assets/scripts/Playfsb Manager.cs"
+"Assets/scripts/Rotation.cs"
 -langversion:9.0
 /deterministic
 /optimize+
