@@ -2124,6 +2124,7 @@ MonoBehaviour:
   gravity: 0
   direction: {x: 0, y: 0, z: 0}
   inputDirection: {x: 0, y: 0, z: 0}
+  initializeDirection: {x: 0, y: 0, z: 0}
   rotation: {fileID: 0}
   virtualCamera: {fileID: 549133587759490364}
   characterController: {fileID: 0}
