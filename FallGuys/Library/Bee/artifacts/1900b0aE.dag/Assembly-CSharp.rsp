@@ -388,6 +388,7 @@
 "Assets/scripts/Character.cs"
 "Assets/scripts/CharcterManager.cs"
 "Assets/scripts/DestroyZone.cs"
+"Assets/scripts/DialogManager.cs"
 "Assets/scripts/GameManager.cs"
 "Assets/scripts/Head.cs"
 "Assets/scripts/information.cs"
