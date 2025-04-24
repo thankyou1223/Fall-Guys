@@ -393,6 +393,7 @@
 "Assets/scripts/Head.cs"
 "Assets/scripts/information.cs"
 "Assets/scripts/LobbyManager.cs"
+"Assets/scripts/MasterManager.cs"
 "Assets/scripts/Mouse.cs"
 "Assets/scripts/Parallax.cs"
 "Assets/scripts/PlayfsbManager.cs"

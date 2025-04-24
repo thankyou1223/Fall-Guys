@@ -10,6 +10,12 @@ public class LobbyManager : MonoBehaviourPunCallbacks
 
     private Dictionary<string, GameObject> dictionary = new Dictionary<string, GameObject>();
 
+    public override void OnConnectedToMaster()
+    {
+        // JoinLobby() : 특정 로비를 생성하여 진입하는 함수
+        PhotonNetwork.JoinLobby();
+    }
+
     public override void OnJoinedRoom()
     {
         PhotonNetwork.LoadLevel("Game");
@@ -49,7 +55,7 @@ public class LobbyManager : MonoBehaviourPunCallbacks
             else // 룸의 정보가 변경되는 경우
             {
                 // 룸이 처음 생성되는 경우
-                if(dictionary.ContainsKey(roomInfo.Name) == false)
+                if (dictionary.ContainsKey(roomInfo.Name) == false)
                 {
                     GameObject clone = Instantiate(Resources.Load<GameObject>("Room"), parentPosition);
 
@@ -57,7 +63,6 @@ public class LobbyManager : MonoBehaviourPunCallbacks
 
                     dictionary.Add(roomInfo.Name, clone);
                 }
-
                 else // 룸의 정보가 변경되는 경우
                 {
                     dictionary.TryGetValue(roomInfo.Name, out prefab);
@@ -67,10 +72,6 @@ public class LobbyManager : MonoBehaviourPunCallbacks
             }
 
         }
-
-
-
-
-
     }
 }
+
